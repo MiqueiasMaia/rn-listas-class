@@ -24,7 +24,7 @@ export default function Main({ navigation }) {
                 renderItem={
                     ({ item }) => (
                         <TouchableWithoutFeedback onPress={
-                            () => navigation.navigate('Feed', {title: item.title})
+                            () => navigation.navigate('Feed', { title: item.title })
                         }>
                             <View>
                                 <MainListItem item={item.title} />
